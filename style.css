@@ -58,6 +58,52 @@ article{
     border-radius: 20px;
 }
 
+@media screen and (max-width: 900px) {
+    li{
+        padding: 0.1rem;
+    }
+
+    section {
+        flex-direction: row; 
+        flex-wrap: wrap;     
+    }
+
+    article {
+        flex: 1 1 auto; 
+        width: 100%;   
+    }
+}
+    
+
+#special{
+    background-image: url("Pasta.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#special > h1 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+#special > p {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-weight: bold;
+}
+
+article img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map > img {
+    width: 90%;
+    height: 43%;
+}
+
 div {
     position: relative;
 }
